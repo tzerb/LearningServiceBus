@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSimpleConsole", "ServiceBusSimpleConsole\ServiceBusSimpleConsole.csproj", "{7448FDFA-82B1-45BD-BA9B-01058261402C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3878708E-C41A-48C1-AB92-F6D0CA91CD97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{59D69B34-BC8F-40F7-AE1D-15343A40D380}"
+	ProjectSection(SolutionItems) = preProject
+		parameters.json = parameters.json
+		template.json = template.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7448FDFA-82B1-45BD-BA9B-01058261402C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7448FDFA-82B1-45BD-BA9B-01058261402C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7448FDFA-82B1-45BD-BA9B-01058261402C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7448FDFA-82B1-45BD-BA9B-01058261402C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59D69B34-BC8F-40F7-AE1D-15343A40D380} = {3878708E-C41A-48C1-AB92-F6D0CA91CD97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44BB31EB-A23C-493F-902F-E8FBD5C1EB2B}
+	EndGlobalSection
+EndGlobal
